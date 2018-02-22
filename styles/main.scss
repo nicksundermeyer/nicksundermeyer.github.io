@@ -7,26 +7,45 @@ body, html{
     background-color: rgb(240, 240, 240);
 }
 
+button{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 // navbar
 // From this tutorial: https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/
 .navbar{
-    background: transparent;
+    background: transparent !important;
     border: none;
     margin-bottom: 0;
 
-    .navbar-collapse{
-        border:0;
+    .navbar-brand{
+        color: rgb(71, 71, 71);
+    }
+    .nav-link{
+        color: rgb(71, 71, 71);
+    }
+
+    .navbar-toggler{
+        border: none;
+        border-radius: 0px;
+        background: transparent !important;
+    
+        .icon-bar {
+            background-color: rgb(71, 71, 71);
+            display: block;
+            width: 22px;
+            height: 3px;
+            margin-top: 3px;
+            margin-bottom: 2px;
+            transition: all 0.2s;
+        }
+        
     }
 }
-.navbar-toggle{
-    border: none;
-    border-radius: 0px;
-    background: transparent !important;
 
-    .icon-bar {
-        width: 22px;
-        transition: all 0.2s;
-    }
+// From this tutorial: https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/
+.navbar-toggler{
     .top-bar {
         transform: rotate(45deg);
         transform-origin: 10% 10%;
