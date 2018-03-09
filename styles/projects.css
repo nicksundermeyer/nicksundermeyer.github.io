@@ -1,3 +1,8 @@
+:root{
+  --main-color: #477A9B;
+  --hover-color: #ABDADD;
+}
+
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -8,15 +13,15 @@ body {
   }
   
   a {
-    color: #fed136;
+    color: var(--main-color);
   }
   
   a:hover {
-    color: #fec503;
+    color: var(--hover-color);
   }
   
   .text-primary {
-    color: #fed136 !important;
+    color: var(--main-color) !important;
   }
   
   h1,
@@ -30,7 +35,7 @@ body {
   }
   
   section {
-    padding: 100px 0;
+    padding: 50px 0;
   }
   
   section h2.section-heading {
@@ -48,15 +53,16 @@ body {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     section {
       padding: 150px 0;
     }
-  }
+  } */
   
   .btn {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
+    margin: 10px;
   }
   
   .btn-xl {
@@ -65,13 +71,13 @@ body {
   }
   
   .btn-primary {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
   }
   
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
+    background-color: var(--hover-color) !important;
+    border-color: var(--hover-color) !important;
     color: white;
   }
   
@@ -80,12 +86,12 @@ body {
   }
   
   ::-moz-selection {
-    background: #fed136;
+    background: var(--hover-color);
     text-shadow: none;
   }
   
   ::selection {
-    background: #fed136;
+    background: var(--hover-color);
     text-shadow: none;
   }
   
@@ -108,17 +114,17 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: var(--main-color);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   #mainNav .navbar-brand {
-    color: #fed136;
+    color: var(--main-color);
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
   }
   
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: var(--hover-color);
   }
   
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,7 +137,7 @@ body {
   }
   
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color: var(--main-color);
   }
   
   @media (min-width: 992px) {
@@ -245,11 +251,11 @@ body {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: var(--hover-color);
   }
   
   #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
+    opacity: 0.5;
   }
   
   #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -449,7 +455,7 @@ body {
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color: var(--main-color);
   }
   
   .timeline > li .timeline-image h4 {
@@ -620,7 +626,7 @@ body {
   }
   
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: var(--main-color);
     box-shadow: none;
   }
   
@@ -690,6 +696,9 @@ body {
   }
   
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #fed136;
+    background-color: var(--hover-color);
   }
   
+  .modal-backdrop {
+    z-index: -1;
+  }
