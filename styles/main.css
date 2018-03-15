@@ -13,7 +13,9 @@ button {
 }
 
 .navbar {
+  font-family: Helvetica, Arial, sans-serif !important;
   background: transparent !important;
+  background-color: #f0f0f0;
   border: none;
   margin-bottom: 0;
 }
