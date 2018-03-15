@@ -705,8 +705,10 @@ body {
 
   /* Formatting for videos */
   iframe{
-    width: 100%;
-    height: 400;
+    width: 50vw; 
+    height: 30vw;
+    display: block;
+    margin: auto;
   }
 
   .center-cropped {
