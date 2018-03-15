@@ -702,3 +702,16 @@ body {
   .modal-backdrop {
     z-index: -1;
   }
+
+  /* Formatting for videos */
+  iframe{
+    width: 100%;
+    height: 400;
+  }
+
+  .center-cropped {
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 250px;
+    width: 800px;
+  }
