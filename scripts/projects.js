@@ -50,7 +50,7 @@ arr.push({
     modalName: "vyralModal"
 });
 arr.push({
-    header: "Cookbook Website",
+    header: "Cookbook Prototype",
     subHeader: "Web Development",
     imgFull: "img/portfolio/cookbook-full.png",
     imgThumbnail: "img/portfolio/cookbook-full.png",
@@ -76,5 +76,5 @@ for (i = 0; i < arr.length; i++) {
         paragraphString += "<p>" + arr[i].paragraphs[j] + "</p>";
     }
 
-    document.getElementById("portfolio").innerHTML += "<div class='portfolio-modal modal fade' id='" + arr[i].modalName + "' tabindex='-1' role='dialog' aria-hidden='true'>    <div class='modal-dialog'>        <div class='modal-content'>            <div class='close-modal' data-dismiss='modal'>                <div class='lr'>                    <div class='rl'></div>                </div>            </div>            <div class='container'>                <div class='row'>                    <div class='col-lg-8 mx-auto'>                        <div class='modal-body'>                            <h2 class='text-uppercase'>" + arr[i].header + "</h2>                            <p class='item-intro text-muted'>" + arr[i].subHeader + "</p>                            <img class='img-fluid d-block mx-auto' src='" + arr[i].imgFull + "' alt=''>" + paragraphString + "<button class='btn btn-primary' data-dismiss='modal' type='button'>                                <i class='fa fa-times'></i>                                Close Project</button>                        </div>                    </div>                </div>            </div>        </div>    </div></div>"
+    document.getElementById("portfolio").innerHTML += "<div class='portfolio-modal modal' id='" + arr[i].modalName + "' tabindex='-1' role='dialog' aria-hidden='true'>    <div class='modal-dialog'>        <div class='modal-content'>            <div class='close-modal' data-dismiss='modal'>                <div class='lr'>                    <div class='rl'></div>                </div>            </div>            <div class='container'>                <div class='row'>                    <div class='col-lg-8 mx-auto'>                        <div class='modal-body'>                            <h2 class='text-uppercase'>" + arr[i].header + "</h2>                            <p class='item-intro text-muted'>" + arr[i].subHeader + "</p>                            <img class='img-fluid d-block mx-auto' src='" + arr[i].imgFull + "' alt=''>" + paragraphString + "<button class='btn btn-primary' data-dismiss='modal' type='button'>                                <i class='fa fa-times'></i>                                Close Project</button>                        </div>                    </div>                </div>            </div>        </div>    </div></div>"
 }
