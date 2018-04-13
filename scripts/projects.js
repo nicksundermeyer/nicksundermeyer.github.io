@@ -65,6 +65,22 @@ arr.push({
     paragraphs: ["This is a poster I made for a water conservation campaign. It was based off my love of minimalism in design, and goes for simplicity. The poster also asked for some examples of ways to save water based on the website save20gallons.org, which I put in simple text around the faucet, and used the red/white/black colors to pop different parts of the design. The poster won a design contest and was used by the Santa Clara County in California as part of a water-saving initiative."],
     modalName: "lifeModal"
 });
+arr.push({
+    header: "High School 3D Project",
+    subHeader: "3D Modeling",
+    imgFull: "img/portfolio/modelling-full.jpg",
+    imgThumbnail: "img/portfolio/modelling-full.jpg",
+    paragraphs: ["This is a render of a group of models that I made for an animation for the Paly Robotics team. I modeled and UV mapped four buildings (a store, a small wooden shack, a larger modern-style house, and a classic tile-roofed house), as well as the fence, viking hat, and stop sign in the image. The final models were eventually rendered in a 3rd party renderer, Octane, to improve lighting as well as add post-processing effects."],
+    modalName: "modelModal"
+});
+arr.push({
+    header: "High School 3D Project",
+    subHeader: "3D Modeling",
+    imgFull: "img/portfolio/modelling-full.jpg",
+    imgThumbnail: "img/portfolio/modelling-full.jpg",
+    paragraphs: ["This is a render of a group of models that I made for an animation for the Paly Robotics team. I modeled and UV mapped four buildings (a store, a small wooden shack, a larger modern-style house, and a classic tile-roofed house), as well as the fence, viking hat, and stop sign in the image. The final models were eventually rendered in a 3rd party renderer, Octane, to improve lighting as well as add post-processing effects."],
+    modalName: "modelModal"
+});
 
 // loop through pages and modals
 for (i = 0; i < arr.length; i++) {
