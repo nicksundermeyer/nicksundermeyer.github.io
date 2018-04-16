@@ -73,14 +73,6 @@ arr.push({
     paragraphs: ["This is a render of a group of models that I made for an animation for the Paly Robotics team. I modeled and UV mapped four buildings (a store, a small wooden shack, a larger modern-style house, and a classic tile-roofed house), as well as the fence, viking hat, and stop sign in the image. The final models were eventually rendered in a 3rd party renderer, Octane, to improve lighting as well as add post-processing effects."],
     modalName: "modelModal"
 });
-arr.push({
-    header: "High School 3D Project",
-    subHeader: "3D Modeling",
-    imgFull: "img/portfolio/modelling-full.jpg",
-    imgThumbnail: "img/portfolio/modelling-full.jpg",
-    paragraphs: ["This is a render of a group of models that I made for an animation for the Paly Robotics team. I modeled and UV mapped four buildings (a store, a small wooden shack, a larger modern-style house, and a classic tile-roofed house), as well as the fence, viking hat, and stop sign in the image. The final models were eventually rendered in a 3rd party renderer, Octane, to improve lighting as well as add post-processing effects."],
-    modalName: "modelModal"
-});
 
 // loop through pages and modals
 for (i = 0; i < arr.length; i++) {
@@ -92,5 +84,5 @@ for (i = 0; i < arr.length; i++) {
         paragraphString += "<p>" + arr[i].paragraphs[j] + "</p>";
     }
 
-    document.getElementById("portfolio").innerHTML += "<div class='portfolio-modal modal' id='" + arr[i].modalName + "' tabindex='-1' role='dialog' aria-hidden='true'>    <div class='modal-dialog'>        <div class='modal-content'>            <div class='close-modal' data-dismiss='modal'>                <div class='lr'>                    <div class='rl'></div>                </div>            </div>            <div class='container'>                <div class='row'>                    <div class='col-lg-8 mx-auto'>                        <div class='modal-body'>                            <h2 class='text-uppercase'>" + arr[i].header + "</h2>                            <p class='item-intro text-muted'>" + arr[i].subHeader + "</p>                            <img class='img-fluid d-block mx-auto' src='" + arr[i].imgFull + "' alt=''>" + paragraphString + "<button class='btn btn-primary' data-dismiss='modal' type='button'>                                <i class='fa fa-times'></i>                                Close Project</button>                        </div>                    </div>                </div>            </div>        </div>    </div></div>"
+    document.getElementById("portfolio").innerHTML += "<div class='portfolio-modal modal fade' id='" + arr[i].modalName + "' tabindex='-1' role='dialog' aria-hidden='true'>    <div class='modal-dialog'>        <div class='modal-content'>            <div class='close-modal' data-dismiss='modal'>                <div class='lr'>                    <div class='rl'></div>                </div>            </div>            <div class='container'>                <div class='row'>                    <div class='col-lg-8 mx-auto'>                        <div class='modal-body'>                            <h2 class='text-uppercase'>" + arr[i].header + "</h2>                            <p class='item-intro text-muted'>" + arr[i].subHeader + "</p>                            <img class='img-fluid d-block mx-auto' src='" + arr[i].imgFull + "' alt=''>" + paragraphString + "<button class='btn btn-primary' data-dismiss='modal' type='button'>                                <i class='fa fa-times'></i>                                Close Project</button>                        </div>                    </div>                </div>            </div>        </div>    </div></div>"
 }
