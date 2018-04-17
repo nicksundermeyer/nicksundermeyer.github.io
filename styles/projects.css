@@ -58,33 +58,6 @@ body {
       padding: 150px 0;
     }
   } */
-  
-  .btn {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    margin: 10px;
-  }
-  
-  .btn-xl {
-    font-size: 18px;
-    padding: 20px 40px;
-  }
-  
-  .btn-primary {
-    background-color: var(--main-color);
-    border-color: var(--main-color);
-  }
-  
-  .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: var(--hover-color) !important;
-    border-color: var(--hover-color) !important;
-    color: white;
-  }
-  
-  .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  }
-  
   ::-moz-selection {
     background: var(--hover-color);
     text-shadow: none;
