@@ -3,7 +3,7 @@ var arr = [];
 // push each page to array
 arr.push({
     header: "GraviBird",
-    subHeader: "Game Design",
+    subHeader: "Game Development",
     imgFull: "",
     imgThumbnail: "img/portfolio/gravibird-full.png",
     paragraphs: ["<iframe src='https://www.youtube.com/embed/onVdS1dRl34' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>", "This was a project made for a game design class in collaboration with another student. Our primary design philosophy with this piece was to try to create a single-button experience, which is a challenging design problem as it doesn't give you much leeway in terms of game mechanics. At first, we were going to make a simple jump over obstacles, but had the idea to instead incorporate the gravity-switching mechanic, with some blocks that fell with the player to provide an ever-changing landscape to navigate. I found this mechanic particularly compelling as it gives the player the ability to change the course on the fly with well-timed presses, and the obstacles become almost like a secondary character that the player is able to control.", "Our greatest challenge with this project was probably sticking with our original design idea and keeping it to only one button press. We had many different ideas for mechanics to incorporate, all of which would have required extra button presses, but we wanted to keep it simple and avoid adding too many unnecessary things to the game. In the end, I think this turned out well, and I was glad that we were able to get through to a complete product by the end."],
@@ -26,20 +26,28 @@ arr.push({
     modalName: "rehearsalModal"
 });
 arr.push({
+    header: "UE4 Project",
+    subHeader: "Game Development",
+    imgFull: "img/portfolio/ue4_full.jpg",
+    imgThumbnail: "img/portfolio/ue4_full.jpg",
+    paragraphs: ["This was a project create in Unreal Engine 4 for my Game Programming 2 class. With this project, I learned to use the Unreal engine, including both Blueprints and C++. The final project is a bit eclectic because I was learning along the way, but UE4 is a great tool and I learned a lot from working with it.", "The game is a first-person platformer/puzzler, with three levels that the player can go through in any order. Players try to complete each level as quickly as possible, which involves a combination of dodging various enemies and traps, as well as opening doors using special 'keys' and smashing through rock formations with a hammer. I think the most challenging aspect of this project was keeping the game as a coherent experience as I learned each part of the engine along the way, and avoiding feature creep as I began to open up the possibilities of the engine.", "<iframe width='560' height='315' src='https://www.youtube-nocookie.com/embed/SPDKFkvGXs0?rel=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"],
+    modalName: "ueModal"
+});
+arr.push({
+    header: "Swordplay Prototype",
+    subHeader: "Game Development",
+    imgFull: "img/portfolio/sword-full.png",
+    imgThumbnail: "img/portfolio/sword-full.png",
+    paragraphs: ["This project is a small game prototype of a local multiplayer competitive arena game in which two players fight using a attack/parry sword-fighting system. Each player controls one character using either a controller or a keyboard/mouse combination. Players must aim their attacks, and then may swing from either the left or right. They can also parry on the left or right side, and if one player's swing hits the other's parry, they are staggered for a moment, giving an opportunity to attack. The game includes a menu and scoring system, and players fight in a best-of-three across different maps.", "The biggest challenge for me with this project was in getting the sword mechanics to work right and feel good, especially as I have no animation experience. I also had a lot of issues with getting Unity's input system to work well with multiple controllers, so in the future I would probably prefer to write my own input system to replace the default Unity system.", "Overall, I think the project turned out well, and I completed most of what I wanted to, but there's definitely room for improvements to be made to the fighting, as well as other additions such as power-ups and more interesting maps.", "<iframe src='https://www.youtube.com/embed/s9-aANnhPIM?rel=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"],
+    modalName: "swordModal"
+});
+arr.push({
     header: "Low Poly Dog",
     subHeader: "Graphic Design",
     imgFull: "img/portfolio/leo-full.png",
     imgThumbnail: "img/portfolio/leo-full.png",
     paragraphs: ["This was a small personal project created as a gift for a family member, but I'm proud of how it turned out. It's a portrait of our family dog, and I tried hard to capture his personality as best I could. I have always really loved this polygonal art style but had never tried to work with it before, so I was glad to get the chance to try it for myself."],
     modalName: "leoModal"
-});
-arr.push({
-    header: "Swordplay Prototype",
-    subHeader: "Game Design",
-    imgFull: "img/portfolio/sword-full.png",
-    imgThumbnail: "img/portfolio/sword-full.png",
-    paragraphs: ["This project is a small game prototype of a local multiplayer competitive arena game in which two players fight using a attack/parry sword-fighting system. Each player controls one character using either a controller or a keyboard/mouse combination. Players must aim their attacks, and then may swing from either the left or right. They can also parry on the left or right side, and if one player's swing hits the other's parry, they are staggered for a moment, giving an opportunity to attack. The game includes a menu and scoring system, and players fight in a best-of-three across different maps.", "The biggest challenge for me with this project was in getting the sword mechanics to work right and feel good, especially as I have no animation experience. I also had a lot of issues with getting Unity's input system to work well with multiple controllers, so in the future I would probably prefer to write my own input system to replace the default Unity system.", "Overall, I think the project turned out well, and I completed most of what I wanted to, but there's definitely room for improvements to be made to the fighting, as well as other additions such as power-ups and more interesting maps.", "<iframe src='https://www.youtube.com/embed/s9-aANnhPIM?rel=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"],
-    modalName: "swordModal"
 });
 arr.push({
     header: "Album Cover",
