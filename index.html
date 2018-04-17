@@ -5,7 +5,7 @@
     <Title>Projects</Title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/projects.css">
+    <link href="styles/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar top-bar"></span>
@@ -26,16 +27,33 @@
         </a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav nav-pills mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="#top">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Projects</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <div id="top"></div>
+
+    <!-- About section -->
+    <section id="about">
+        <center>
+            <h2 class="section-heading text-uppercase">About Me</h2>
+        </center>
+        <div>
+            <p>
+                Studying Computer Science and Game Development at the University of Denver, pursuing a career as a game designer and software engineer. Hard worker, thrives when working in a group, and can talk your ear off about anything I'm interested in. I have experience with programming, graphic design, and 3D modeling. Especially passionate about games and everything related to them.
+            </p>
+        </div>
+    </section>
 
     <!-- Portfolio Grid (content created in projects.js) -->
     <section id="portfolio">
@@ -51,15 +69,40 @@
         </div>
     </section>
 
-    <div class="footer">
-        <a class="btn btn-primary btn-sm" href="https://www.linkedin.com/in/nicksundermeyer/">Linkedin</a>
-        <a class="btn btn-primary btn-sm" href="https://github.com/nicksundermeyer">Github</a>
-    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">
+            <div class="col-lg-12">
+                <span class="copyright">Website Created by Nick Sundermeyer</span>
+            </div>
+            <div class="col-lg-12">
+                <ul>
+                    <li class="list-inline-item">
+                        <a class="btn btn-primary" href="https://www.linkedin.com/in/nicksundermeyer/">
+                            <i class="fa fa-fw fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-primary" href="https://github.com/nicksundermeyer">
+                            <i class="fa fa-fw fa-github"></i>
+                        </a>
+                    </li>
+                    <!-- <li class="list-inline-item">
+                        <a class="btn btn-primary" href="https://twitter.com/nicksundy">
+                            <i class="fa fa-fw fa-twitter"></i>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="/scripts/projects.js"></script>
+    <script src="/scripts/main.js"></script>
 </body>
 
 </html>
