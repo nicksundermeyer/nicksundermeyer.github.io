@@ -18,7 +18,7 @@ arr.push({
     modalName: "waterModal"
 });
 arr.push({
-    header: "Reservation App Concept",
+    header: "Reservation App",
     subHeader: "Graphic Design",
     imgFull: "",
     imgThumbnail: "img/portfolio/rehearsal-full.png",
@@ -42,12 +42,28 @@ arr.push({
     modalName: "swordModal"
 });
 arr.push({
+    header: "Coop Platformer",
+    subHeader: "Game Development",
+    imgFull: "img/portfolio/coop-full.png",
+    imgThumbnail: "img/portfolio/coop-full.png",
+    paragraphs: ["<a href='games/SystemsEDP/index.html'>Try this game running in WebGL!</a>", "This was a game project created in two weeks for my Systems in Emergent Digital Practices class, in order to explore the concept of cooperation between two people. The game utilizes a gravity-switching mechanic, where players may stand either above or below platforms, and must cooperate to solve simple puzzles on both sides of the world in order to progress. In addition to the game, I created a cardboard controller that allowed it to be played similarly to an arcade game, with players facing each other and using metal 'buttons' to control their characters.", "This game was created using assets from Unity's standard 2D assets and backgrounds from <a href='https://ansimuz.itch.io/industrial-parallax-background'>here</a>."],
+    modalName: "coopModal"
+});
+arr.push({
     header: "Low Poly Dog",
     subHeader: "Graphic Design",
     imgFull: "img/portfolio/leo-full.png",
     imgThumbnail: "img/portfolio/leo-full.png",
     paragraphs: ["This was a small personal project created as a gift for a family member, but I'm proud of how it turned out. It's a portrait of our family dog, and I tried hard to capture his personality as best I could. I have always really loved this polygonal art style but had never tried to work with it before, so I was glad to get the chance to try it for myself."],
     modalName: "leoModal"
+});
+arr.push({
+    header: "Landscape Vector Art",
+    subHeader: "Graphic Design",
+    imgFull: "img/portfolio/landscape_full.png",
+    imgThumbnail: "img/portfolio/landscape_full.png",
+    paragraphs: [""],
+    modalName: "landscapeModal"
 });
 arr.push({
     header: "Album Cover",
@@ -80,14 +96,6 @@ arr.push({
     imgThumbnail: "img/portfolio/modelling-full.jpg",
     paragraphs: ["This is a render of a group of models that I made for an animation for the Paly Robotics team. I modeled and UV mapped four buildings (a store, a small wooden shack, a larger modern-style house, and a classic tile-roofed house), as well as the fence, viking hat, and stop sign in the image. The final models were eventually rendered in a 3rd party renderer, Octane, to improve lighting as well as add post-processing effects."],
     modalName: "modelModal"
-});
-arr.push({
-    header: "Landscape Vector Art",
-    subHeader: "Graphic Design",
-    imgFull: "img/portfolio/landscape_full.png",
-    imgThumbnail: "img/portfolio/landscape_full.png",
-    paragraphs: [""],
-    modalName: "landscapeModal"
 });
 
 // loop through pages and modals
