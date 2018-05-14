@@ -81,6 +81,14 @@ arr.push({
     paragraphs: ["This is a render of a group of models that I made for an animation for the Paly Robotics team. I modeled and UV mapped four buildings (a store, a small wooden shack, a larger modern-style house, and a classic tile-roofed house), as well as the fence, viking hat, and stop sign in the image. The final models were eventually rendered in a 3rd party renderer, Octane, to improve lighting as well as add post-processing effects."],
     modalName: "modelModal"
 });
+arr.push({
+    header: "Landscape Vector Art",
+    subHeader: "Graphic Design",
+    imgFull: "img/portfolio/landscape_full.png",
+    imgThumbnail: "img/portfolio/landscape_full.png",
+    paragraphs: [""],
+    modalName: "landscapeModal"
+});
 
 // loop through pages and modals
 for (i = 0; i < arr.length; i++) {
