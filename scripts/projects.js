@@ -2,6 +2,36 @@ var arr = [];
 
 // push each page to array
 arr.push({
+    header: "UE4 Project",
+    subHeader: "Game Development",
+    imgFull: "img/portfolio/ue4_full.jpg",
+    imgThumbnail: "img/portfolio/ue4_full.jpg",
+    paragraphs: ["This was a project created in Unreal Engine 4 for my Game Programming 2 class. With this project, I learned to use the Unreal engine, including both Blueprints and C++. The final project is a bit eclectic because I was learning along the way, but UE4 is a great tool and I learned a lot from working with it.", "The game is a first-person platformer/puzzler, with three levels that the player can go through in any order. Players try to complete each level as quickly as possible, which involves a combination of dodging various enemies and traps, as well as opening doors using special 'keys' and smashing through rock formations with a hammer. I think the most challenging aspect of this project was keeping the game as a coherent experience as I learned each part of the engine along the way, and avoiding feature creep as I began to open up the possibilities of the engine.", "<iframe width='560' height='315' src='https://www.youtube-nocookie.com/embed/SPDKFkvGXs0?rel=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"],
+    modalName: "ueModal"
+});
+arr.push({
+    header: "AR Projects",
+    subHeader: "Game Development",
+    imgFull: "",
+    imgThumbnail: "img/portfolio/dinocards-full.png",
+    paragraphs: [
+    "These AR projects were created during my time working as a 2018 summer intern for Jaunt VR, as a UX developer and prototyper.", 
+    "<iframe src='https://www.youtube.com/embed/SMQPOxl-_BI' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>", 
+    "This project was the result of a few weeks of prototyping work in cooperation with another prototyper to develop an understanding of AR development in Unity and successful interaction models for AR. I created the dinosaur animations, behaviors, and movement system, as well as the generation of a navigation mesh based on the AR plane being detected.",
+    "<iframe src='https://www.youtube.com/embed/Y8fHJeMTWow' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
+    "This is an app that I worked on over the course of my internship along with other interns at the company, to showcase the company's content in AR. I worked on both the visual and interaction design of the app, as well as building it using Unity along with another developer. I was proud of this project, as I was able to participate in both the design and development of a more fully-fledged idea, and take ownership of the full process from start to finish. It gave me a lot of valuable experience designing for AR, which was a new space I hadn't worked in much, and also greatly improved my Unity skills."
+    ],
+    modalName: "arModal"
+});
+arr.push({
+    header: "Reservation App",
+    subHeader: "Graphic Design",
+    imgFull: "",
+    imgThumbnail: "img/portfolio/rehearsal-full.png",
+    paragraphs: ["<iframe src='https://drive.google.com/file/d/1qDKmeZPwnL-c8p5L9eZ3mnklHEGHrHiF/preview'></iframe>", "This was an app concept done for a design challenge."],
+    modalName: "rehearsalModal"
+});
+arr.push({
     header: "GraviBird",
     subHeader: "Game Development",
     imgFull: "",
@@ -18,28 +48,25 @@ arr.push({
     modalName: "waterModal"
 });
 arr.push({
-    header: "Reservation App",
-    subHeader: "Graphic Design",
-    imgFull: "",
-    imgThumbnail: "img/portfolio/rehearsal-full.png",
-    paragraphs: ["<iframe src='https://drive.google.com/file/d/1qDKmeZPwnL-c8p5L9eZ3mnklHEGHrHiF/preview'></iframe>", "This was an app concept done for a design challenge."],
-    modalName: "rehearsalModal"
-});
-arr.push({
-    header: "UE4 Project",
-    subHeader: "Game Development",
-    imgFull: "img/portfolio/ue4_full.jpg",
-    imgThumbnail: "img/portfolio/ue4_full.jpg",
-    paragraphs: ["This was a project created in Unreal Engine 4 for my Game Programming 2 class. With this project, I learned to use the Unreal engine, including both Blueprints and C++. The final project is a bit eclectic because I was learning along the way, but UE4 is a great tool and I learned a lot from working with it.", "The game is a first-person platformer/puzzler, with three levels that the player can go through in any order. Players try to complete each level as quickly as possible, which involves a combination of dodging various enemies and traps, as well as opening doors using special 'keys' and smashing through rock formations with a hammer. I think the most challenging aspect of this project was keeping the game as a coherent experience as I learned each part of the engine along the way, and avoiding feature creep as I began to open up the possibilities of the engine.", "<iframe width='560' height='315' src='https://www.youtube-nocookie.com/embed/SPDKFkvGXs0?rel=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"],
-    modalName: "ueModal"
-});
-arr.push({
     header: "Swordplay Prototype",
     subHeader: "Game Development",
     imgFull: "img/portfolio/sword-full.png",
     imgThumbnail: "img/portfolio/sword-full.png",
     paragraphs: ["This project is a small game prototype of a local multiplayer competitive arena game in which two players fight using a attack/parry sword-fighting system. Each player controls one character using either a controller or a keyboard/mouse combination. Players must aim their attacks, and then may swing from either the left or right. They can also parry on the left or right side, and if one player's swing hits the other's parry, they are staggered for a moment, giving an opportunity to attack. The game includes a menu and scoring system, and players fight in a best-of-three across different maps.", "The biggest challenge for me with this project was in getting the sword mechanics to work right and feel good, especially as I have no animation experience. I also had a lot of issues with getting Unity's input system to work well with multiple controllers, so in the future I would probably prefer to write my own input system to replace the default Unity system.", "Overall, I think the project turned out well, and I completed most of what I wanted to, but there's definitely room for improvements to be made to the fighting, as well as other additions such as power-ups and more interesting maps.", "<iframe src='https://www.youtube.com/embed/s9-aANnhPIM?rel=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"],
     modalName: "swordModal"
+});
+arr.push({
+    header: "Research Website",
+    subHeader: "Web Development",
+    imgFull: "",
+    imgThumbnail: "img/portfolio/notyet-full.png",
+    paragraphs: [
+    "<iframe src='https://www.youtube.com/embed/rCyvJWBO16g' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>", 
+    "This website project was the result of my Web Projects class at the University of Denver. The goal was to create a website over the course of 10 weeks as a class as a part of a professor's research project. This research project is based around finding the best way to automatically generate math problems, and the website was created to act as a front-end testing site for the problems.",
+    "The site was made using the MEAN stack, and the class was divided into a frontend and backend team, and run as an agile development studio with two-week sprints. I worked on the frontend team to develop the website UI, as well as integrating all of the information on courses, accounts, and statistics being managed in the backend. It was a great experience with working on a bigger project in a more real-world development scenario, and the website we made will continue to be worked on by future classes and eventually used for the research project once it is fully complete.",
+    "A live demo of the site can be found <a href='https://not-yet-prod.herokuapp.com/'>here</a>, however note that the live site is not populated with anything from the problem generation engine, so many of the features will not be usable"
+    ],
+    modalName: "notyetModal"
 });
 arr.push({
     header: "Coop Platformer",
