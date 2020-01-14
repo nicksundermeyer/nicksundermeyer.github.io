@@ -15,11 +15,9 @@ export default class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>
-              I'm a versatile software developer with a design-oriented mind who
-              loves working on creative interactive experiences that challenge
-              me in multiple areas. I have strong experience across many
-              disciplines, including object-oriented programming, the Unity and
-              Unreal game engines, UI/UX and game design, and 3D modeling.
+              I have strong experience across many disciplines, including
+              object-oriented programming, the Unity and Unreal game engines,
+              game design, and 3D modeling.
             </p>
             <p>
               I am a developer first and foremost because I love to build
@@ -30,7 +28,7 @@ export default class About extends Component {
               that involves multiple disciplines across design and development.
               I also love to learn new things, thrive in collaborative teams,
               and have great communication skills from a lifetime passion for
-              reading.{" "}
+              reading.
             </p>
             <div className="row">
               <div className="columns contact-details">
