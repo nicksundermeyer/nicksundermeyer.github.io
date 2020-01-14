@@ -5,16 +5,17 @@ export default class Modal extends Component {
   constructor(props) {
     super(props);
     this.portfolioData = props.portfolioData;
+    this.modalID = props.modalID;
   }
   render() {
     return (
       <div>
         <div className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={"#" + this.portfolioData.modalID} title>
+            <a href={"#" + this.modalID} title>
               <img
-                alt="portfolioImage1"
-                src={"images/portfolio/" + this.portfolioData.image}
+                alt=""
+                src={require("./images/thumbnails/" + this.portfolioData.image)}
                 class="center-cropped"
               />
               <div className="overlay">
@@ -29,12 +30,12 @@ export default class Modal extends Component {
             </a>
           </div>
         </div>
-        <div id={this.portfolioData.modalID} className="popup-modal mfp-hide">
+        <div id={this.modalID} className="popup-modal mfp-hide">
           <div class="img-wrapper">
             <img
-              alt="portfolioImage2"
+              alt=""
               className="scale-with-grid"
-              src={"images/portfolio/modals/" + this.portfolioData.image}
+              src={require("./images/modals/" + this.portfolioData.image)}
             />
           </div>
           <div className="description-box">

@@ -4,6 +4,7 @@ import portfolioData from "../../portfolioData";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import { FormControl, withStyles } from "@material-ui/core";
+import "./portfolio.css";
 
 const styles = theme => ({
   root: {
@@ -59,11 +60,11 @@ class Portfolio extends Component {
             >
               {portfolioData.map((e, i) => {
                 if (this.state.category === "") {
-                  return <Modal portfolioData={portfolioData[i]} />;
+                  return <Modal portfolioData={portfolioData[i]} modalID={i} />;
                 } else if (
                   portfolioData[i].categories === this.state.category
                 ) {
-                  return <Modal portfolioData={portfolioData[i]} />;
+                  return <Modal portfolioData={portfolioData[i]} modalID={i} />;
                 } else {
                   return null;
                 }

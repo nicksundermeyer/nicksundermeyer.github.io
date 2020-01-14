@@ -5,7 +5,6 @@ let resumeData = [
     header: "Blank Canvas",
     categories: "Game Development",
     image: "blankCanvas.png",
-    modalID: "modal_blankcanvas",
     body: (
       <div>
         <p>
@@ -46,8 +45,7 @@ let resumeData = [
   {
     header: "UE4 Project",
     categories: "Game Development",
-    image: "ue4_full.jpg",
-    modalID: "modal_ue4project",
+    image: "ue4.jpg",
     body: (
       <div>
         <p>
@@ -83,8 +81,7 @@ let resumeData = [
   {
     header: "AR Projects",
     categories: "Game Development",
-    image: "dinocards-full.png",
-    modalID: "modal_arprojects",
+    image: "dinocards.png",
     body: (
       <div>
         <p>
@@ -130,8 +127,7 @@ let resumeData = [
   {
     header: "Reservation App",
     categories: "Graphic Design",
-    image: "rehearsal-full.png",
-    modalID: "modal_rehearsal",
+    image: "rehearsal.png",
     body: (
       <div>
         <iframe
@@ -146,7 +142,6 @@ let resumeData = [
     header: "Campfire",
     categories: "Game Development",
     image: "campfire.png",
-    modalID: "modal_campfire",
     body: (
       <div>
         <a href="https://sundy.itch.io/campfire">View the game on itch.io</a>
@@ -179,8 +174,7 @@ let resumeData = [
   {
     header: "Gravibird",
     categories: "Game Development",
-    image: "gravibird-full.png",
-    modalID: "modal_gravibird",
+    image: "gravibird.png",
     body: (
       <div>
         <a href="games/Gravibird/index.html">Try this game running in WebGL!</a>
@@ -218,10 +212,30 @@ let resumeData = [
     )
   },
   {
-    header: "3D Modeling Projects",
+    header: "Porsche",
     categories: "3D Work",
-    image: "modeling-full.png",
-    modalID: "modal_modeling",
+    image: "porsche.png",
+    body: (
+      <div>
+        <iframe
+          title="porsche"
+          src="https://www.youtube.com/embed/kdjWQ059vSE"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+      </div>
+    )
+  },
+  {
+    header: "Cabin",
+    categories: "3D Work",
+    image: "cabin.png"
+  },
+  {
+    header: "3D Modeling Class",
+    categories: "3D Work",
+    image: "modeling.png",
     body: (
       <div>
         <p>
@@ -364,8 +378,7 @@ let resumeData = [
   {
     header: "Water Shader",
     categories: "Game Development",
-    image: "water-full.png",
-    modalID: "modal_watershader",
+    image: "water.png",
     body: (
       <div>
         <iframe
@@ -387,10 +400,32 @@ let resumeData = [
     )
   },
   {
+    header: "Co-op Platformer",
+    categories: "Game Development",
+    image: "coop.png",
+    body: (
+      <div>
+        <a href="games/SystemsEDP/index.html">
+          Try this game running in WebGL!
+        </a>
+        <p>
+          This was a game project created in two weeks for my Systems in
+          Emergent Digital Practices class, in order to explore the concept of
+          cooperation between two people. The game utilizes a gravity-switching
+          mechanic, where players may stand either above or below platforms, and
+          must cooperate to solve simple puzzles on both sides of the world in
+          order to progress. In addition to the game, I created a cardboard
+          controller that allowed it to be played similarly to an arcade game,
+          with players facing each other and using metal 'buttons' to control
+          their characters.
+        </p>
+      </div>
+    )
+  },
+  {
     header: "Lift Animation",
     categories: "3D Work",
     image: "liftAnimation.png",
-    modalID: "modal_liftanimation",
     body: (
       <div>
         <iframe
@@ -418,8 +453,7 @@ let resumeData = [
   {
     header: "Swordplay Prototype",
     categories: "Game Development",
-    image: "sword-full.png",
-    modalID: "modal_swordplay",
+    image: "sword.png",
     body: (
       <div>
         <p>
@@ -460,8 +494,7 @@ let resumeData = [
   {
     header: "Research Website",
     categories: "Web Development",
-    image: "notyet-full.png",
-    modalID: "modal_notyet",
+    image: "notyet.png",
     body: (
       <div>
         <iframe
@@ -500,58 +533,24 @@ let resumeData = [
     )
   },
   {
-    header: "Co-op Platformer",
-    categories: "Game Development",
-    image: "coop-full.png",
-    modalID: "modal_coop",
-    body: (
-      <div>
-        <a href="games/SystemsEDP/index.html">
-          Try this game running in WebGL!
-        </a>
-        <p>
-          This was a game project created in two weeks for my Systems in
-          Emergent Digital Practices class, in order to explore the concept of
-          cooperation between two people. The game utilizes a gravity-switching
-          mechanic, where players may stand either above or below platforms, and
-          must cooperate to solve simple puzzles on both sides of the world in
-          order to progress. In addition to the game, I created a cardboard
-          controller that allowed it to be played similarly to an arcade game,
-          with players facing each other and using metal 'buttons' to control
-          their characters.
-        </p>
-      </div>
-    )
-  },
-  {
     header: "Low Poly Dog",
     categories: "Graphic Design",
-    image: "leo-full.png",
-    modalID: "modal_leo",
-    body: (
-      <div>
-        <p>
-          This was a small personal project created as a gift for a family
-          member, but I'm proud of how it turned out. It's a portrait of our
-          family dog, and I tried hard to capture his personality as best I
-          could. I have always really loved this polygonal art style but had
-          never tried to work with it before, so I was glad to get the chance to
-          try it for myself.
-        </p>
-      </div>
-    )
+    image: "beans.png"
+  },
+  {
+    header: "Low Poly Dog 2",
+    categories: "Graphic Design",
+    image: "leo.png"
   },
   {
     header: "Landscape Vector Art",
     categories: "Graphic Design",
-    image: "landscape_full.png",
-    modalID: "modal_landscape"
+    image: "landscape.png"
   },
   {
     header: "Album Cover",
     categories: "Graphic Design",
-    image: "vyral-full.png",
-    modalID: "modal_vyral",
+    image: "vyral.png",
     body: (
       <div>
         <p>
@@ -572,8 +571,7 @@ let resumeData = [
   {
     header: "Water=Life",
     categories: "Graphic Design",
-    image: "life-full.png",
-    modalID: "modal_life",
+    image: "life.png",
     body: (
       <div>
         <p>
@@ -591,8 +589,7 @@ let resumeData = [
   {
     header: "High School 3D Project",
     categories: "3D Work",
-    image: "hsmodeling-full.jpg",
-    modalID: "modal_hsmodelling",
+    image: "hsmodeling.jpg",
     body: (
       <div>
         <p>
