@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Portfolio from './components/portfolio/portfolio';
-import Footer from './components/footer/footer';
-import resumeData from './resumeData';
+import React, { Component } from "react";
+import Header from "./components/header/header";
+import About from "./components/about/about";
+import Portfolio from "./components/portfolio/portfolio";
+import Footer from "./components/footer/footer";
+import resumeData from "./resumeData";
 class App extends Component {
   render() {
     return (
@@ -11,8 +11,7 @@ class App extends Component {
         <Header resumeData={resumeData} />
         <About />
         <Portfolio />
-        {/* <Resume /> */}
-        <Footer resumeData={resumeData}/>
+        <Footer resumeData={resumeData} />
       </div>
     );
   }

@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.nicksundermeyer.com",
   "dependencies": {
     "@material-ui/core": "^3.9.4",
     "gh-pages": "^2.2.0",
@@ -29,6 +30,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {},
-  "homepage": "https://www.nicksundermeyer.com"
+  "devDependencies": {}
 }
