@@ -9,6 +9,7 @@ let resumeData = {
   "mailto": "mailto:nicksundermeyer@gmail.com",
   "github": "https://github.com/nicksundermeyer",
   "twitter": "https://twitter.com/nicksundy",
-  "linkedin": "https://www.linkedin.com/in/nicksundermeyer/"
+  "linkedin": "https://www.linkedin.com/in/nicksundermeyer/",
+  "itchio": "https://sundy.itch.io/"
 }
 export default resumeData
