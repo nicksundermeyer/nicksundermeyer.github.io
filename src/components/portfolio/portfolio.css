@@ -1,3 +1,8 @@
+root {
+  display: "flex";
+  flex-wrap: "wrap";
+}
+
 #portfolio {
   background: #ebeeee;
   padding-top: 90px;
@@ -12,8 +17,13 @@
   color: #95a3a3;
 }
 
+#portfolio h3 {
+  margin: 25px 0;
+  text-align: center;
+}
+
 /* Portfolio Content */
-#portfolio-wrapper .columns {
+.portfolio-wrapper .columns {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {

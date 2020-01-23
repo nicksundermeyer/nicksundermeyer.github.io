@@ -247,28 +247,28 @@ let resumeData = [
             <div class="carousel-item active">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Render1.png"
+                src={require("./images/modelingModal/Render1.png")}
                 alt="First slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Render2.png"
+                src={require("./images/modelingModal/Render2.png")}
                 alt="Second slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Render3.png"
+                src={require("./images/modelingModal/Render3.png")}
                 alt="Third slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Render4.png"
+                src={require("./images/modelingModal/Render4.png")}
                 alt="Third slide"
               ></img>
             </div>
@@ -305,42 +305,42 @@ let resumeData = [
             <div class="carousel-item active">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Scene1_1.png"
+                src={require("./images/modelingModal/Scene1_1.png")}
                 alt="First slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Scene1_2.png"
+                src={require("./images/modelingModal/Scene1_2.png")}
                 alt="Second slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Scene1_3.png"
+                src={require("./images/modelingModal/Scene1_3.png")}
                 alt="Third slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Scene2_1.png"
+                src={require("./images/modelingModal/Scene2_1.png")}
                 alt="Third slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Scene2_2.png"
+                src={require("./images/modelingModal/Scene2_2.png")}
                 alt="Third slide"
               ></img>
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="/images/portfolio/modelingModal/Scene2_3.png"
+                src={require("./images/modelingModal/Scene2_3.png")}
                 alt="Third slide"
               ></img>
             </div>
