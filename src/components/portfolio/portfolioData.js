@@ -14,23 +14,16 @@ let resumeData = [
         </p>
         <p>
           This was my senior game capstone project for my Game Development
-          major, created over the course of 30 weeks along with a team of two
-          other programmers.
+          major, created on a team with two other programmers using Unreal Engine 4.
         </p>
         <p>
-          Take up your paintbrush in this stealth platformer as you traverse a
-          bleak world, leaving behind your own splash of color.
+          The game is a stealth puzzle-platformer in which the player uses paint-based powers to progress past environmental puzzles and patrolling enemies. They must use a combination of three different paints: a distraction type which alerts enemies in the area, a bouncy paint that allows them jump higher, and a speed paint that allows them to run more quickly. These are combined in a 2.5d style that allows players to interact with the background, and forces them to use their creativity to get past the obstacles in their path.
         </p>
         <p>
-          Play as a starving artist whose creativity has been suppressed by a
-          tyrannical regime. Gather your courage and venture out at night,
-          sneaking across the rooftops of your city to express yourself and
-          paint a mural on a government building.
+          For this project, I worked on programming, gameplay design, and level design. I designed and built the core gameplay loop of the game mostly using Blueprints, including player movement as well as the system for throwing paint and their effects on the player. This involved setting up the state machine that blends between all player animations, calculating and throwing the projectiles, the decal system to display paint on the environment, as well as lots of design work, prototyping, and iteration to make sure the system felt natural to the player.
         </p>
         <p>
-          Paint the world freely using your paintbrush, use special paints to
-          solve puzzles and give yourself superhuman abilities, and sneak by the
-          goons patrolling the streets around you.
+          In addition to the core gameplay, I also designed and built the entire first level out of art pulled from the UE4 marketplace, as well as multiple puzzles in the second level. Through rounds of prototyping, playtesting, and feedback, I focused on teaching the mechanics to the player as smoothly as possible without slowing gameplay, and then creating interesting puzzles that pushed the player to use their combined powers in different ways.
         </p>
         <iframe
           title="blankcanvas"
