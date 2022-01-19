@@ -2,6 +2,44 @@ import React from "react";
 
 let resumeData = [
   {
+    header: "The Expanse: A Telltale Series",
+    categories: "Game Development",
+    image: "theExpanse.jpg",
+    body: (
+      <div>
+          <iframe
+          title="truecolors"
+          src="https://www.youtube.com/embed/c27FGhsT7kI"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+        <p>
+          Participating heavily in early gameplay design work on a small team, as well as owning multiple core gameplay systems from initial design to technical implementation and iteration.
+        </p>
+      </div>
+    )
+  },
+  {
+    header: "Life is Strange: True Colors",
+    categories: "Game Development",
+    image: "trueColors.jpg",
+    body: (
+      <div>
+        <iframe
+          title="truecolors"
+          src="https://www.youtube.com/embed/PNt1aSkYfWk"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+        <p>
+          For this project, I worked on multiple gameplay systems across many areas of the game. I primarily worked in UI, including working on the in-game journal and owning the collectibles system, which allows players to view memories associated with strong emotions on objects in the game. I also worked on our tools, audio system using Wwise, and fixed bugs across many areas of gameplay. For the Wavelengths DLC, I also owned the technical implementation of the DJ gameplay system, which allows the player to queue and play songs of their choice which persist across scenes.
+        </p>
+      </div>
+    )
+  },
+  {
     header: "Blank Canvas",
     categories: "Game Development",
     image: "blankCanvas.png",
